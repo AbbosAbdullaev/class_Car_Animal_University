@@ -22,5 +22,10 @@ public class Main {
     System.out.println("Universitet studentlar soni -----> " + myUniversity.getStudents_number());
     System.out.println("Universitet ochilgan yili -----> " + myUniversity.getOpen_year());
 
+    System.out.println("===================================");
+
+    Students students = new Students("Abbos", "Abdullaev", 1,30);
+    System.out.print("Student haqida ma'lumot : " + students.getName() + " "  +students.getFirstname() + " " + students.getAge() + " " + students.getId()) ;
+
     }
 }

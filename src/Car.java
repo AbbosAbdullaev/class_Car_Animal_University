@@ -4,6 +4,8 @@ public class Car {
     private Float price;
     private String type;
 
+    public Car() {
+    }
 
     public Car(String model, String speed, Float price, String type) {
         this.model = model;

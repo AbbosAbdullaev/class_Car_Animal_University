@@ -3,6 +3,9 @@ public class Animals {
     private String type;
     private Integer age;
 
+    public Animals() {
+    }
+
     public Animals(String name, String type, Integer age) {
         this.name = name;
         this.type = type;

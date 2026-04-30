@@ -4,6 +4,9 @@ public class University {
     private Integer students_number;
     private Integer open_year;
 
+    public University() {
+    }
+
     public University(String name, Integer id, Integer students_number, Integer open_year) {
         this.name = name;
         Id = id;
