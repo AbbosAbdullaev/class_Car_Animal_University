@@ -28,9 +28,23 @@ public class Main {
 //    System.out.print("Student haqida ma'lumot : " + students.getName() + " "  +students.getFirstname() + " " + students.getAge() + " " + students.getId()) ;
 
 
-        Animal animal1 = new Cat();
-        animal1.soundChiqar();
-        Animal animal2 = new Dog();
-        animal2.soundChiqar();
+//        Animal animal1 = new Cat();
+//        animal1.soundChiqar();
+//        Animal animal2 = new Dog();
+//        animal2.soundChiqar();
+
+//        BankAccount bankAccount = new BankAccount("Abbos",500000);
+//        bankAccount.deposit(0);
+//        bankAccount.withDraw(0);
+//        System.out.println(bankAccount.getOwnerName() + " balansingiz : " + bankAccount.getBalance());
+
+
+        Pragrammer pragrammer = new Pragrammer("Abbos", 50000,"Java");
+        Menjer menjer = new Menjer("Sardor",250000,25);
+        pragrammer.work();
+        menjer.work();
+
+        pragrammer.coder();
+        menjer.amount();
     }
 }
